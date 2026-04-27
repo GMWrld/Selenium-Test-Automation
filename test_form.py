@@ -9,7 +9,7 @@ import time
 
 def test_form_automation_filling():
     options = Options()
-    options.add_argument(--headless)
+    options.add_argument("--headless")
     browser = webdriver.Firefox(options=options)
 
     browser.get("https://formy-project.herokuapp.com/")
